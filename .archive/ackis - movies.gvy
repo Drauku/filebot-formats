@@ -1,0 +1,1 @@
+{genre}\{collection.replaceFirst(/^(?i)(The|A|An|Collection|Collection of the|Live-Action)\s(.+)/, /$2/).replaceAll(/Saga Collection/, "Saga").replaceAll(/[`´‘’ʻ""“”]/, "'").replaceAll(/[:|]/, " - ").replaceAll(/[?]/, "!").replaceAll(/[*\s]+/, " ")}\{n.replaceFirst(/^(?i)(The|A|An)\s(.+)/, /$2, $1/)} [{y}]\{n.replaceFirst(/^(?i)(The|A|An)\s(.+)/, /$2, $1/)} [{y}]
